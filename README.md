@@ -86,6 +86,7 @@ docker push vishallazrus/reddit-webapp
 
 After pushing the image to DockerHub, you can verify its presence by logging into hub.docker.com and checking if the image is listed there.
 
+# -  -  -   -   -   -   -  -  -  -  -  -  -  -  -  -   -  -  -  -  -  -  -  -  -   -  -  
 
 # Naw next stape on Deployment server 
 
@@ -170,7 +171,9 @@ Now you can access the application using the Deployment server's IP address and 
 http://<ip_address_of_deployment_server>:3000
 ```
 
-# 😃 I finished with projedt deployment for Configure Ingress go ahead.
+
+# -  -  -   -   -   -   -  -  -  -  -  -  -  -  -  -   -  -  -  -  -  -  -  -  -   -  -  
+# 😃 We finished with project deployment for the Configure Ingress part.
 
 Here are the correct steps and commands to configure Ingress and expose your application in Kubernetes project:
 
@@ -253,8 +256,8 @@ Replace "domain.com/test" with the actual URL path specified in your Ingress con
 
 Additionally, you can access the deployed application on your EC2 instance using its IP address and port 3000, but make sure to open port 3000 in the security group of your EC2 instance.
 
-
-#If you are stoping your EC2 instance make sure next time 
+# -  -  -   -   -   -   -  -  -  -  -  -  -  -  -  -   -  -  -  -  -  -  -  -  -   -  -  
+# If you are stoping your EC2 instance make sure next time start kubelet 
 If you are stopping your instance and want to access your application using `http://<ip_address_of_deployment_server>:3000`, you will need to follow these steps:
 
 
