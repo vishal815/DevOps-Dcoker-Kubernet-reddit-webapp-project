@@ -1,5 +1,7 @@
 
-# DevOps, Docker, Kubernet, ingress, reddit-webapp and aws project
+# DevOps, Docker, Kubernet, ingress, reddit-webapp and aws project.
+![image](https://github.com/vishal815/DevOps-Dcoker-Kubernet-reddit-webapp-project/assets/83393190/1ddd9792-8678-4f60-a881-a2cb876a4873)
+
 
 set up your Kubernetes project with two instances, one for the CI server and another for the deployment server:
 
@@ -179,8 +181,11 @@ http://<ip_address_of_deployment_server>:3000
 
 # -  -  -   -   -   -   -  -  -  -  -  -  -  -  -  -   -  -  -  -  -  -  -  -  -   -  -  
 # 😃 We finished with project deployment for the Configure Ingress part.
+![image](https://github.com/vishal815/DevOps-Dcoker-Kubernet-reddit-webapp-project/assets/83393190/aee2a8a9-e804-4a3c-b5be-ae8b89f32c45)
+ Ingress in Kubernetes allows for a more flexible and fine-grained control over incoming traffic, it can provide a number of different features such as load balancing, SSL termination, and rate limiting
 
-Here are the correct steps and commands to configure Ingress and expose your application in Kubernetes project:
+
+Here are the steps and commands to configure Ingress and expose your application in Kubernetes project:
 
 Step 6: Configure Ingress
 
