@@ -36,6 +36,8 @@ set up your Kubernetes project with two instances, one for the CI server and ano
      minikube start --driver=docker
      ```
   - Note:- Make sure you open the 3000 port in a security group of your Ec2 Instance.
+    ![image](https://github.com/vishal815/DevOps-Dcoker-Kubernet-reddit-webapp-project/assets/83393190/359cb70e-2428-4ee8-b1a6-d463297d6d71)
+
 
 
 These steps will set up your CI server with Docker installed and your GitHub repository cloned, and your deployment server with Docker, Minikube, and kubectl installed.
@@ -85,6 +87,7 @@ docker push vishallazrus/reddit-webapp
 ```
 
 After pushing the image to DockerHub, you can verify its presence by logging into hub.docker.com and checking if the image is listed there.
+![image](https://github.com/vishal815/DevOps-Dcoker-Kubernet-reddit-webapp-project/assets/83393190/1780d5e6-6ac0-4412-aaf7-15b5cf0a6dbd)
 
 # -  -  -   -   -   -   -  -  -  -  -  -  -  -  -  -   -  -  -  -  -  -  -  -  -   -  -  
 
@@ -153,6 +156,7 @@ kubectl apply -f service.yaml
 ```
 
 If You want to check your deployment & Service use the command ```kubectl get deployment``` & ```kubectl get services```
+![Screenshot (680)](https://github.com/vishal815/DevOps-Dcoker-Kubernet-reddit-webapp-project/assets/83393190/d7053338-3de9-4a8d-a715-e84106feaf2f)
 
 
 5. Access the Application:
@@ -171,6 +175,7 @@ Now you can access the application using the Deployment server's IP address and 
 http://<ip_address_of_deployment_server>:3000
 ```
 
+![Screenshot (681)](https://github.com/vishal815/DevOps-Dcoker-Kubernet-reddit-webapp-project/assets/83393190/9474b7e3-0b45-40b9-8f2f-04d2a27127ce)
 
 # -  -  -   -   -   -   -  -  -  -  -  -  -  -  -  -   -  -  -  -  -  -  -  -  -   -  -  
 # 😃 We finished with project deployment for the Configure Ingress part.
@@ -267,5 +272,5 @@ sudo systemctl start kubelet
 kubectl get pods
 ```
 Ensure that your security group allows inbound traffic on port 3000 to access your application externally.
-
+Note:- The shown IP is my temporary IP it will be destroyed after my instance restart.
 # Thank You Happy learning😃
